@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+header .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 86px;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+header .profile-icon img{
+    width: 30px;
+    margin-right: 2em;
+}
+
+header nav .nav-list {
+    display: flex;
+    list-style: none;
+}
+
+header nav .nav-list .list-items {
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+header nav .nav-list .list-items a{
+    text-decoration: none;
+    color: grey;
+}
+
+header nav .nav-list .list-items a:hover {
+    color: aqua;
+}
+
+header .container .logo {
+    margin-right: auto;
+    margin-left: 2em;
+}
+
+header .container .logo h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+header .container .logo h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f87b1;
+    margin-top: 0px;
+}
+
+.image-post .image-background img {
+    height: 150px;
+    width: 100%;
+}
+
+.image-post {
+    position: relative;
+}
+
+.image-post .container {
+    position: absolute;
+    top: 15%;
+    padding: 10px;
+    display: flex;
+    color: grey;
+}
+
+.image-post .container h4 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.image-post .container p {
+    align-self: center;
+    margin-left: 750px;
+    font-size: 18px;
+}
+
+.main-body {
+    margin: 0px 50px;
+    padding: 0px 15px;
+}
+
+.main-body .main-content .container .nav-tabs {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 35px;
+    padding: 0px;
+}
+
+.main-body .main-content .container .nav-tabs li {
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.main-body .main-content .container .nav-tabs li:hover {
+    background-color: grey;
+    opacity: 0.35;
+}
+
+
+.main-body .main-content .container .nav-tabs li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #14759b;
+}
+
+.main-body .main-content .container .nav-tabs li a:hover {
+    color: rgb(3, 3, 90);
+}
+
+.main-body .main-content .container p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-body .main-content .container p a {
+    text-decoration: none;
+    color: rgb(3, 3, 88);
+}
+
+.main-body .main-content .container span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bottom-bar .container {
+    padding: 25px 0px;
+    background-color: grey;
+    opacity: 0.7;
+}
+
+.bottom-bar .container p{
+    color: black;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+
